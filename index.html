@@ -67,7 +67,13 @@
   }
   .btn:hover{transform:translateY(-1px);}
   .btn-primary{background:#fff;color:var(--dark);box-shadow:0 8px 24px rgba(0,0,0,0.18);}
-  .btn-ghost{background:rgba(255,255,255,0.12);color:#fff;border:1px solid rgba(255,255,255,0.45);}
+  .btn-primary:hover{box-shadow:0 10px 28px rgba(0,0,0,0.24);}
+  .btn-ghost{
+    background:rgba(255,255,255,0.1);color:#fff;
+    border:1.5px solid rgba(255,255,255,0.5);
+    backdrop-filter:blur(4px);
+  }
+  .btn-ghost:hover{background:rgba(255,255,255,0.2);border-color:rgba(255,255,255,0.7);}
   .btn svg{width:18px;height:18px;flex-shrink:0;}
 
   /* Video */
@@ -169,11 +175,22 @@
           <p class="tagline">Automatically record your calls with quality controls, smart filtering, and PIN-locked privacy — all stored on your device.</p>
           <div class="btn-row">
             <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.yantrixlab.autocallrecorder" target="_blank" rel="noopener">
-              <svg viewBox="0 0 24 24" fill="none"><path d="M3 3l18 9-18 9V3z" fill="#1D5F78"/></svg>
+              <svg viewBox="0 0 24 24">
+                <defs>
+                  <linearGradient id="playGrad" x1="3" y1="3" x2="21" y2="21" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#00D2FF"/>
+                    <stop offset="35%" stop-color="#00E676"/>
+                    <stop offset="68%" stop-color="#FFD600"/>
+                    <stop offset="100%" stop-color="#FF3D57"/>
+                  </linearGradient>
+                </defs>
+                <path d="M3 3l18 9-18 9V3z" fill="url(#playGrad)"/>
+              </svg>
               Get it on Google Play
             </a>
             <a class="btn btn-ghost" href="#helper">
-              Need more reliable recording?
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12,16l-6,-6h4V3h4v7h4L12,16zM4,18h16v2H4z" fill="#ffffff"/></svg>
+              Download Helper APK
             </a>
           </div>
         </div>
