@@ -1,6 +1,6 @@
 {
-  "versionCode": 8,
-  "versionName": "1.0.8",
+  "versionCode": 9,
+  "versionName": "1.0.9",
   "apkUrl": "https://autocallrecorder.yantrixlab.com/downloads/auto-call-recorder-plus-helper.apk",
-  "notes": "Update check now runs every time the app opens, not just once every 24 hours."
+  "notes": "Fixes the update download not opening the installer when tapped from the notification."
 }
