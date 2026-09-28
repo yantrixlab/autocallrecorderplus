@@ -1,6 +1,6 @@
 {
-  "versionCode": 10,
-  "versionName": "1.1.0",
+  "versionCode": 11,
+  "versionName": "1.1.1",
   "apkUrl": "https://autocallrecorder.yantrixlab.com/downloads/auto-call-recorder-plus-helper.apk",
-  "notes": "Adds a battery optimization exemption step. Some phone brands aggressively kill background apps, which can silently stop call recording even when every other permission is granted - please open the app and allow this new step if prompted."
+  "notes": "Adds an auto-start permission step for phone brands (OnePlus, Oppo, Realme, Xiaomi, Vivo, Huawei, and others) known to silently kill background apps even after battery optimization is disabled. If you're on one of these brands and recording still isn't working after the previous update, open the app and look for the new highlighted 'Allow auto-start' card."
 }
