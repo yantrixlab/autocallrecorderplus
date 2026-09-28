@@ -1,6 +1,6 @@
 {
-  "versionCode": 9,
-  "versionName": "1.0.9",
+  "versionCode": 10,
+  "versionName": "1.1.0",
   "apkUrl": "https://autocallrecorder.yantrixlab.com/downloads/auto-call-recorder-plus-helper.apk",
-  "notes": "Fixes the update download not opening the installer when tapped from the notification."
+  "notes": "Adds a battery optimization exemption step. Some phone brands aggressively kill background apps, which can silently stop call recording even when every other permission is granted - please open the app and allow this new step if prompted."
 }
