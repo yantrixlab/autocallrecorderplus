@@ -1,6 +1,6 @@
 {
-  "versionCode": 12,
-  "versionName": "1.1.2",
+  "versionCode": 13,
+  "versionName": "1.1.3",
   "apkUrl": "https://autocallrecorder.yantrixlab.com/downloads/auto-call-recorder-plus-helper.apk",
-  "notes": "Removes the auto-start permission step - it relied on unverified OEM-specific settings screens and wasn't actually needed. Battery optimization exemption (added in 1.1.0) remains, since it uses a standard, verified Android API."
+  "notes": "Fixes call recordings that start to stutter or skip after about 5 minutes, and long recordings that could end up cut short or unplayable. Recording now runs smoothly for calls of any length."
 }
