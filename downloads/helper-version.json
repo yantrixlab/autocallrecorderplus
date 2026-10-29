@@ -1,6 +1,6 @@
 {
-  "versionCode": 15,
-  "versionName": "1.1.5",
+  "versionCode": 16,
+  "versionName": "1.1.6",
   "apkUrl": "https://autocallrecorder.yantrixlab.com/downloads/auto-call-recorder-plus-helper.apk",
-  "notes": "Call recordings now follow the audio format, sample rate and bitrate chosen in the main app's Settings (M4A, MP3 or WAV) instead of always being saved as M4A. This needs the matching main app update to take effect; until then recordings stay M4A. Also includes the long-call stutter fix and keeps the phone awake during calls."
+  "notes": "A cleaner, easier Accessibility setup screen: three clear steps, a preview of exactly what to look for in your phone's settings, and a button that stays in view. Also fixes the screen overlapping the status bar and navigation bar on Android 15 and newer."
 }
