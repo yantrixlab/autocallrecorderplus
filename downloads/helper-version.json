@@ -1,6 +1,6 @@
 {
-  "versionCode": 14,
-  "versionName": "1.1.4",
+  "versionCode": 15,
+  "versionName": "1.1.5",
   "apkUrl": "https://autocallrecorder.yantrixlab.com/downloads/auto-call-recorder-plus-helper.apk",
-  "notes": "Fixes call recordings that start to stutter, click or skip after about 5-6 minutes, and long recordings that could be cut short or take many minutes to finish saving. Also keeps the phone awake for the length of a call so long recordings stay smooth with the screen off."
+  "notes": "Call recordings now follow the audio format, sample rate and bitrate chosen in the main app's Settings (M4A, MP3 or WAV) instead of always being saved as M4A. This needs the matching main app update to take effect; until then recordings stay M4A. Also includes the long-call stutter fix and keeps the phone awake during calls."
 }
