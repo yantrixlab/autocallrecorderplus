@@ -1,6 +1,6 @@
 {
-  "versionCode": 13,
-  "versionName": "1.1.3",
+  "versionCode": 14,
+  "versionName": "1.1.4",
   "apkUrl": "https://autocallrecorder.yantrixlab.com/downloads/auto-call-recorder-plus-helper.apk",
-  "notes": "Fixes call recordings that start to stutter or skip after about 5 minutes, and long recordings that could end up cut short or unplayable. Recording now runs smoothly for calls of any length."
+  "notes": "Fixes call recordings that start to stutter, click or skip after about 5-6 minutes, and long recordings that could be cut short or take many minutes to finish saving. Also keeps the phone awake for the length of a call so long recordings stay smooth with the screen off."
 }
